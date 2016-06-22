@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/nameTV"
+        android:textStyle="italic"
+        android:text="name, "
+        android:padding="4dp"
+        android:textColor="#a0a0f5"
+        android:paddingRight="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="age, "
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/ageTV"
+        android:paddingRight="4dp"
+        android:textColor="#f9a25b"
+        android:padding="2dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/heightTV"
+        android:text="height, "
+        android:paddingRight="2dp"
+        android:textColor="#ec56f7"
+        android:padding="3dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="weight"
+        android:id="@+id/weightTV"
+        android:padding="3dp" />
+
+
+</LinearLayout>

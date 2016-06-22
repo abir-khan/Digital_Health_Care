@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_add">Add Member</string>
+</resources>
